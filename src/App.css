@@ -36,3 +36,49 @@
     transform: rotate(360deg);
   }
 }
+body {
+  background-image: url('./material/cool.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+
+}
+body .bg-dark {
+  background-color: black !important;
+}
+
+
+.btn-separator:after {
+  content: ' ';
+  display: block;
+  float: left;
+  background: #ADADAD;
+  margin: 0 10px;
+  height: 34px;
+  width: 1px;
+}
+
+.heading {
+  text-align: center;
+  margin: 10px
+}
+
+.mainForm {
+  align-items: center;
+}
+
+.genderSeperator {
+  background-color: #282c34;
+  color: #282c34;
+}
+.countryDropDown {
+  height: 50px;
+  border-radius: 4px;
+  border-color: lightgray;
+  outline: inherit;
+
+}
+
